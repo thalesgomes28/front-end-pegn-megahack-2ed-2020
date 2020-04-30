@@ -2,8 +2,9 @@ import React, { Component } from "react";
 import Chart from "react-google-charts";
 import { Form } from "./styles";
 import api from "../../services/api";
-import { Container } from "views/Dashboard/styles";
-import CanvasVideo from "react-canvas-video";
+import { Container, ContainerPrimario, Canvas } from "views/Dashboard/styles";
+
+import YouTube from "@u-wave/react-youtube";
 
 var permission = 0;
 
@@ -46,134 +47,64 @@ export default class Dashboard extends Component {
 
   render() {
     return (
-      <Container>
-        <CanvasVideo
-          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          options={{
-            text: "This copy is registered for XXX!",
-            poster:
-              "https://images.pexels.com/photos/383557/pexels-photo-383557.jpeg?w=1260&h=750",
-            autoplay: true,
-          }}
-          styles={{
-            barContainer: {
-              backgroundColor: "blue",
-              width: "1px",
-            },
-          }}
-        />
-        <CanvasVideo
-          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          options={{
-            text: "This copy is registered for XXX!",
-            poster:
-              "https://images.pexels.com/photos/383557/pexels-photo-383557.jpeg?w=1260&h=750",
-            autoplay: true,
-          }}
-          styles={{
-            barContainer: {
-              backgroundColor: "blue",
-              width: "1px",
-            },
-          }}
-        />
+      <div>
+        <ContainerPrimario>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="500px" height="300px" />
+          </div>
+        </ContainerPrimario>
 
-        <CanvasVideo
-          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          options={{
-            text: "This copy is registered for XXX!",
-            poster:
-              "https://images.pexels.com/photos/383557/pexels-photo-383557.jpeg?w=1260&h=750",
-            autoplay: true,
-          }}
-          styles={{
-            barContainer: {
-              backgroundColor: "blue",
-              width: "1px",
-            },
-          }}
-        />
-
-        <CanvasVideo
-          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          options={{
-            text: "This copy is registered for XXX!",
-            poster:
-              "https://images.pexels.com/photos/383557/pexels-photo-383557.jpeg?w=1260&h=750",
-            autoplay: true,
-          }}
-          styles={{
-            barContainer: {
-              backgroundColor: "blue",
-              width: "1px",
-            },
-          }}
-        />
-
-        <CanvasVideo
-          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          options={{
-            text: "This copy is registered for XXX!",
-            poster:
-              "https://images.pexels.com/photos/383557/pexels-photo-383557.jpeg?w=1260&h=750",
-            autoplay: true,
-          }}
-          styles={{
-            barContainer: {
-              backgroundColor: "blue",
-              width: "1px",
-            },
-          }}
-        />
-
-<CanvasVideo
-          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          options={{
-            text: "This copy is registered for XXX!",
-            poster:
-              "https://images.pexels.com/photos/383557/pexels-photo-383557.jpeg?w=1260&h=750",
-            autoplay: true,
-          }}
-          styles={{
-            barContainer: {
-              backgroundColor: "blue",
-              width: "1px",
-            },
-          }}
-        />
-
-        <CanvasVideo
-          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          options={{
-            text: "This copy is registered for XXX!",
-            poster:
-              "https://images.pexels.com/photos/383557/pexels-photo-383557.jpeg?w=1260&h=750",
-            autoplay: true,
-          }}
-          styles={{
-            barContainer: {
-              backgroundColor: "blue",
-              width: "1px",
-            },
-          }}
-        />
-
-        <CanvasVideo
-          src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
-          options={{
-            text: "This copy is registered for XXX!",
-            poster:
-              "https://images.pexels.com/photos/383557/pexels-photo-383557.jpeg?w=1260&h=750",
-            autoplay: true,
-          }}
-          styles={{
-            barContainer: {
-              backgroundColor: "blue",
-              width: "1px",
-            },
-          }}
-        />
-      </Container>
+        <Container>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+          <div>
+            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+          </div>
+        </Container>
+      </div>
     );
   }
 }
