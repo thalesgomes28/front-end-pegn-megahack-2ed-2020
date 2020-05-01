@@ -18,61 +18,61 @@ import Icons from "views/Icons/Icons.js";
     // Admin
     {
       path: "/dashboard",
-      name: "Painel",
+      name: "Home",
       rtlName: "لوحة القيادة",
-      icon: Dashboard,
+      icon: 'home',
       component: DashboardPage,
       layout: "/admin",
       permission:0
       
       
     },
+
+    {
+      path: "/singupcustomer",
+      name: "Perfil",      
+      icon: Person,
+      component: SingUpCustomer,
+      layout: "/admin",
+      permission:1
+    },
+
+    {
+      path: "/about",
+      name: "Startup",     
+      icon: "near_me",
+      component: Icons,
+      layout: "/admin",
+      permission:0
+    },
+     
+    
     {
       path: "/table",
-      name: "loren ipsum",      
+      name: "Desafios",      
       icon: "content_paste",
       component: TableList,
       layout: "/admin",
       permission:2
     },
 
+ 
+
     {
       path: "/singupprovider",
-      name: "Lorem ipsum",
+      name: "Ideias de negócio",
       rtlName: "ملف تعريفي للمستخدم",
-      icon: "content_paste",
+      icon: "lightbulb_outline",
       component: CadastrarProvedor,
       layout: "/admin",
       permission:2
     },
 
-    {
-      path: "/tableCustomers",
-      name: "loren ipsum",      
-      icon: "content_paste",
-      component: TableCustomers,
-      layout: "/admin",
-      permission:1
-    },
+ 
 
   
-    {
-      path: "/singupcustomer",
-      name: " loren ipsum",      
-      icon: Person,
-      component: SingUpCustomer,
-      layout: "/admin",
-      permission:1
-    },
-    {
-      path: "/about",
-      name: "Sobre o projeto",     
-      icon: "security",
-      component: Icons,
-      layout: "/admin",
-      permission:0
-    },
-     
+  
+
    
   ];
 

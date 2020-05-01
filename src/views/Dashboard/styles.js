@@ -2,10 +2,29 @@ import styled from "styled-components";
 
 export const Container = styled.div`
 display: grid;
-grid-template-columns: 250px 250px 250px 250px;
+grid-template-columns: 260px 260px 260px 260px;
 grid-template-rows: auto;
 
+
+
+
 `;
+
+export const ContainerPrimario = styled.div`
+display: flex;
+
+align-items: right;
+width:500px;
+padding: 51px;
+
+
+
+
+`;
+
+
+
+
 
 export const Form = styled.form`
   width: 400px;
