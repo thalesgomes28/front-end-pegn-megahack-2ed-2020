@@ -74,8 +74,8 @@ const defaultFont = {
 |
 */
 const primaryColor = ["#f45414", "#f45414", "#f45414", "#f45414"];
-const warningColor = ["#ff9800", "#ffa726", "#fb8c00", "#ffa21a"];
-const dangerColor = ["#f44336", "#ef5350", "#e53935", "#f55a4e"];
+const warningColor = ["#2d2d2d", "#2d2d2d", "#2d2d2d", "#2d2d2d"];
+const dangerColor = ["#f80000", "#f80000", "#f80000", "#f80000"];
 const successColor = ["#f45414", "#f45414", "#f45414", "#f45414"];
 const infoColor = ["#f45414", "#f45414", "#f45414", "#f45414"];
 const roseColor = ["#e91e63", "#ec407a", "#d81b60", "#eb3573"];
