@@ -108,7 +108,7 @@ export default function Sidebar(props) {
         target="_blank"
       >
         <div className={classes.logoImage}>
-          <img src={logo} alt="logo" className={classes.img} height="47" />
+          <img src={logo} alt="logo" className={classes.img} height="52" />
         </div>
         {logoText}
       </a>
