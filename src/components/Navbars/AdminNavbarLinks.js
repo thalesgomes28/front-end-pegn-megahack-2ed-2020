@@ -24,6 +24,8 @@ import Button from "components/CustomButtons/Button.js";
 import styles from "assets/jss/material-dashboard-react/components/headerLinksStyle.js";
 import { logout } from "services/auth";
 
+import handtalk from "../../assets/handtalk.jpg"
+
 const useStyles = makeStyles(styles);
 
 export default function AdminNavbarLinks() {
@@ -52,7 +54,7 @@ export default function AdminNavbarLinks() {
   };
   return (
     <div>
-  
+    
      
       <div className={classes.manager}>
         <Button
@@ -182,6 +184,7 @@ export default function AdminNavbarLinks() {
           )}
         </Poppers>
       </div>
+      <img src={handtalk} width="120px" height="20px"></img>
     </div>
   );
 }

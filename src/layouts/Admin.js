@@ -15,8 +15,11 @@ import routes from "routes.js";
 
 import styles from "assets/jss/material-dashboard-react/layouts/adminStyle.js";
 
-import bgImage from "assets/img/sidebar-2.jpg";
+//import bgImage from "assets/img/sidebar.jpg";
+import bgImage from "assets/img/side.png";
 import logo from "assets/logo3.png";
+
+
 
 let ps;
 
@@ -48,7 +51,7 @@ export default function Admin({ ...rest }) {
   // states and functions
   const [image, setImage] = React.useState(bgImage);
   const [color, setColor] = React.useState("blue");
-  const [fixedClasses, setFixedClasses] = React.useState("dropdown show");
+  const [fixedClasses, setFixedClasses] = React.useState("dropdown");
   const [mobileOpen, setMobileOpen] = React.useState(false);
   const handleImageClick = image => {
     setImage(image);
@@ -106,6 +109,7 @@ export default function Admin({ ...rest }) {
       />
       
       <div className={classes.mainPanel} ref={mainPanel}>
+   
         <Navbar
           routes={routes}
           handleDrawerToggle={handleDrawerToggle}
@@ -120,6 +124,7 @@ export default function Admin({ ...rest }) {
           <div className={classes.map}>{switchRoutes}</div>
         )}
         {getRoute() ? <Footer /> : null}
+       
         <FixedPlugin
           handleImageClick={handleImageClick}
           handleColorClick={handleColorClick}
@@ -128,6 +133,7 @@ export default function Admin({ ...rest }) {
           handleFixedClick={handleFixedClick}
           fixedClasses={fixedClasses}
         />
+     
       </div>
     </div>
   );

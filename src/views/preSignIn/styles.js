@@ -2,10 +2,48 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   font-family: 'Work Sans', sans-serif;
-  display: flex;
+  
+  
+  display: inline-flex;
+
   align-items: center;
   justify-content: center;
-  height: 100vh;
+ 
+  margin:150px;
+
+  
+`;
+
+export const TextContainer = styled.div`
+width: 600px;
+height: 455px; 
+background: #fff;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+  img {
+
+    width: 50%;
+   
+    
+  }
+  h1{
+    color: #777;
+    padding: 8px;
+    text-align: center;
+    font-size: 14;
+  }
+
+  l1{
+    color: #777;
+    padding: 8px;
+   
+    text-align: justify-all
+  }
+
+
+  
 `;
 
 export const Form = styled.form`

@@ -2,55 +2,17 @@ import styled from "styled-components";
 
 export const Container = styled.div`
   font-family: 'Work Sans', sans-serif;
-  
-  
-  display: inline-flex;
-
+  display: flex;
   align-items: center;
   justify-content: center;
- 
-  margin:150px;
-
+  height: 100vh;
   
 `;
-
-export const TextContainer = styled.div`
-width: 600px;
-height: 455px; 
-background: #fff;
-
-display: flex;
-flex-direction: column;
-align-items: center;
-  img {
-
-    width: 50%;
-   
-    
-  }
-  h1{
-    color: #777;
-    padding: 8px;
-    text-align: center;
-  }
-
-  l1{
-    color: #777;
-    padding: 8px;
-   
-    text-align: justify-all
-  }
-
-
-  
-`;
-
 
 export const Form = styled.form`
   width: 400px;
   background: #fff;
   padding: 20px;
-  
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -62,7 +24,7 @@ export const Form = styled.form`
 
   l1{
     color: #777;
-    padding: 8px;
+    padding: 10px;
     text-align: center;
 
   }
@@ -100,5 +62,16 @@ export const Form = styled.form`
     border-radius: 5px;
     width: 90%;
   }
-
+  hr {
+    margin: 20px 0;
+    border: none;
+    border-bottom: 1px solid rgb(253, 102, 21);
+    width: 100%;
+  }
+  a {
+    font-size: 16;
+    font-weight: bold;
+    color: #00009C;
+    text-decoration: none;
+  }
 `;

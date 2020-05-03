@@ -50,31 +50,32 @@ export default class Dashboard extends Component {
       <div>
         <ContainerPrimario>
           <div>
-            <YouTube video="LKnlv97Uzn8" width="500px" height="300px" />
+            <YouTube video="PslySEBNkhs" width="500px" height="300px" />
           </div>
         </ContainerPrimario>
 
         <Container>
           <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+            <YouTube video="c3ERi8ICZhQ" width="230px" height="140px" />
           </div>
           <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+            <YouTube video="FshAd5PGtw" width="230px" height="140px" />
           </div>
           <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+            <YouTube video="zJzF4KdtOCE" width="230px" height="140px" />
           </div>
           <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+            <YouTube video="oq8h5VUnwzU&t=312s" width="230px" height="140px" />
           </div>
           <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+            <YouTube video="hxEaBa4KGg" width="230px" height="140px" />
+          </div>
+          
+          <div>
+            <YouTube video="c3ERi8ICZhQ" width="230px" height="140px" /> 
           </div>
           <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
+            <YouTube video="c3ERi8ICZhQ" width="230px" height="140px" />
           </div>
           <div>
             <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
