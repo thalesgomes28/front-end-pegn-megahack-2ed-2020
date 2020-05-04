@@ -68,11 +68,6 @@ import Icons from "views/Icons/Icons.js";
       permission:2
     },
 
- 
-
-  
-  
-
    
   ];
 

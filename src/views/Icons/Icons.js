@@ -1,26 +1,35 @@
-/*eslint-disable*/
 import React from "react";
-// @material-ui/core components
-import { makeStyles } from "@material-ui/core/styles";
-import Hidden from "@material-ui/core/Hidden";
-// core components
-import GridItem from "components/Grid/GridItem.js";
-import GridContainer from "components/Grid/GridContainer.js";
-import Card from "components/Card/Card.js";
-import CardHeader from "components/Card/CardHeader.js";
-import CardBody from "components/Card/CardBody.js";
 
-import styles from "assets/jss/material-dashboard-react/views/iconsStyle.js";
+import mesa from './assets/mesa.png';
 
-const useStyles = makeStyles(styles);
+import { Nav, Li, Ul, Figcaption, H1, P, Button, Section, Section1, Figure } from './styles.js';
+
 
 export default function Icons() {
-  const classes = useStyles();
   return (
-    <GridContainer>
-      <>
-      Em Construção
-      </>
-    </GridContainer>
+    <Section>
+      <Nav>
+        <Ul>
+          <Li>Subscribe</Li>
+          <Button>login</Button>
+        </Ul>
+      </Nav>
+      <section>
+        <Figure>
+          <img width="100%" max-width="400px" height="368px" src={mesa} />
+          <Figcaption>
+            <H1 className="evn">InovPEGN</H1>
+            <P className="eventos">Eventos para pessoa empresas que querem <br />soluções</P>
+          </Figcaption>
+        </Figure>
+      </section>
+      
+      <Section1>
+        <h1>a</h1>
+        <h2>b</h2>
+        <h2>b</h2>
+
+      </Section1>
+    </Section>
   );
 }
