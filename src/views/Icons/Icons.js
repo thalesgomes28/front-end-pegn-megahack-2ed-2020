@@ -24,12 +24,7 @@ export default function Icons() {
         </Figure>
       </section>
       
-      <Section1>
-        <h1>a</h1>
-        <h2>b</h2>
-        <h2>b</h2>
-
-      </Section1>
+     
     </Section>
   );
 }
