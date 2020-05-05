@@ -5,8 +5,8 @@
   "private": false,
   "main": "dist/index.js",
   "dependencies": {
-    "@material-ui/core": "^4.9.0",
-    "@material-ui/icons": "4.2.1",
+    "@material-ui/core": "^4.9.13",
+    "@material-ui/icons": "^4.2.1",
     "@u-wave/react-youtube": "^0.7.1",
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
@@ -15,6 +15,7 @@
     "classnames": "2.2.6",
     "google-maps-react": "^2.0.2",
     "history": "4.9.0",
+    "markdown-to-jsx": "^6.11.1",
     "material-table": "^1.56.1",
     "merge-config": "^2.0.0",
     "perfect-scrollbar": "1.4.0",

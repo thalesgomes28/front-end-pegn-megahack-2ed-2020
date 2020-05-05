@@ -32,17 +32,17 @@ export default function FixedPlugin(props) {
         <ul className="dropdown-menu">
           <li className="header-title"> Rank </li>
           
-          <l1> empresa 1w </l1>
+          <l1> Nubank </l1>
           <br></br>
-          <l1> empresa 1w </l1>
+          <l1> Tribo </l1>
           <br></br>
-          <l1> empresa 1w </l1>
+          <l1> shawee </l1>
           <br></br>
-          <l1> empresa 1w </l1>
+          <l1> empresa 4 </l1>
           <br></br>
-          <l1> empresa 1w </l1>
+          <l1> empresa 5 </l1>
           <br></br>
-          <l1> empresa 1w </l1>
+          <l1> empresa 6 </l1>
           <br></br>
           
          

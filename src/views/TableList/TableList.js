@@ -52,7 +52,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="success">
-              <img src={Logo}></img>
+              <img src={Logo} width="190px" ></img>
             </CardHeader>
             <CardBody>
               <h4 className={classes.cardTitle}>Desafio da semana</h4>
@@ -72,7 +72,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="warning">
-              <img src={Logoepoca} width="250px" height="120px"></img>
+              <img src={Logoepoca} width="200px" height="120px"></img>
             </CardHeader>
             <CardBody>
               <h4 className={classes.cardTitle}>Último Desafio da série... </h4>
@@ -91,7 +91,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="danger">
-              <img src={Logococa} width="220px" height="120px"></img>
+              <img src={Logococa} width="200px" height="120px"></img>
             </CardHeader>
             <CardBody>
               <h4 className={classes.cardTitle}>Completed Tasks</h4>
@@ -109,6 +109,71 @@ export default function Dashboard() {
           </Card>
         </GridItem>
       </GridContainer>
+
+      <GridContainer>
+        <GridItem xs={12} sm={12} md={4}>
+          <Card chart>
+            <CardHeader color="success">
+              <img src={Logo} width="190px" ></img>
+            </CardHeader>
+            <CardBody>
+              <h4 className={classes.cardTitle}>Desafio da semana</h4>
+              <p className={classes.cardCategory}>
+                Redução de custos. Esse é um item essencial para qualquer gestor
+                de empresa. ...
+              </p>
+            </CardBody>
+            <CardFooter chart>
+              <div className={classes.stats}>
+                <AccessTime /> updated 4 minutes ago
+              </div>
+            </CardFooter>
+          </Card>
+        </GridItem>
+
+        <GridItem xs={12} sm={12} md={4}>
+          <Card chart>
+            <CardHeader color="warning">
+              <img src={Logoepoca} width="200px" height="120px"></img>
+            </CardHeader>
+            <CardBody>
+              <h4 className={classes.cardTitle}>Último Desafio da série... </h4>
+              <p className={classes.cardCategory}>
+                Gestão de processos: uma peça-chave.
+              </p>
+            </CardBody>
+            <CardFooter chart>
+              <div className={classes.stats}>
+                <AccessTime /> updated 22 minutes ago
+              </div>
+            </CardFooter>
+          </Card>
+        </GridItem>
+
+        <GridItem xs={12} sm={12} md={4}>
+          <Card chart>
+            <CardHeader color="danger">
+              <img src={Logococa} width="200px" height="120px"></img>
+            </CardHeader>
+            <CardBody>
+              <h4 className={classes.cardTitle}>Completed Tasks</h4>
+              <p className={classes.cardCategory}>
+                A diferença entre uma empresa bem-sucedida e uma empresa
+                malsucedida muitas vezes não está na qualidade do produto, mas
+                sim em como ele é feito.
+              </p>
+            </CardBody>
+            <CardFooter chart>
+              <div className={classes.stats}>
+                <AccessTime />updated 44  minutes ago
+              </div>
+            </CardFooter>
+          </Card>
+        </GridItem>
+      </GridContainer>
+
+     
+     
     </div>
   );
 }
