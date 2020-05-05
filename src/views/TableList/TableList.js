@@ -52,7 +52,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="success">
-              <img src={Logo}></img>
+              <img src={Logo} width="190px" ></img>
             </CardHeader>
             <CardBody>
               <h4 className={classes.cardTitle}>Desafio da semana</h4>
@@ -72,7 +72,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="warning">
-              <img src={Logoepoca} width="250px" height="120px"></img>
+              <img src={Logoepoca} width="200px" height="120px"></img>
             </CardHeader>
             <CardBody>
               <h4 className={classes.cardTitle}>Último Desafio da série... </h4>
@@ -91,7 +91,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="danger">
-              <img src={Logococa} width="220px" height="120px"></img>
+              <img src={Logococa} width="200px" height="120px"></img>
             </CardHeader>
             <CardBody>
               <h4 className={classes.cardTitle}>Completed Tasks</h4>
@@ -114,7 +114,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="success">
-              <img src={Logo}></img>
+              <img src={Logo} width="190px" ></img>
             </CardHeader>
             <CardBody>
               <h4 className={classes.cardTitle}>Desafio da semana</h4>
@@ -134,7 +134,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="warning">
-              <img src={Logoepoca} width="250px" height="120px"></img>
+              <img src={Logoepoca} width="200px" height="120px"></img>
             </CardHeader>
             <CardBody>
               <h4 className={classes.cardTitle}>Último Desafio da série... </h4>
@@ -153,7 +153,7 @@ export default function Dashboard() {
         <GridItem xs={12} sm={12} md={4}>
           <Card chart>
             <CardHeader color="danger">
-              <img src={Logococa} width="220px" height="120px"></img>
+              <img src={Logococa} width="200px" height="120px"></img>
             </CardHeader>
             <CardBody>
               <h4 className={classes.cardTitle}>Completed Tasks</h4>
@@ -171,6 +171,9 @@ export default function Dashboard() {
           </Card>
         </GridItem>
       </GridContainer>
+
+     
+     
     </div>
   );
 }
