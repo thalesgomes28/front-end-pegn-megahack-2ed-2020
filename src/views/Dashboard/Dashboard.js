@@ -49,17 +49,22 @@ export default class Dashboard extends Component {
     return (
       <div>
         <ContainerPrimario>
+        
+
           <div>
-            <YouTube video="PslySEBNkhs" width="500px" height="300px" />
+            <YouTube video="8vZUlDbG9Zc" width="500px" height="300px" />
           </div>
         </ContainerPrimario>
 
         <Container>
+        <div>
+            <YouTube video="PslySEBNkhs" width="230px" height="140px" />
+          </div>
           <div>
             <YouTube video="c3ERi8ICZhQ" width="230px" height="140px" />
           </div>
           <div>
-            <YouTube video="zJzF4KdtOCE" width="230px" height="140px" />
+            <YouTube video="521314258547410" width="230px" height="140px" />
           </div>
           <div>
             <YouTube video="zJzF4KdtOCE" width="230px" height="140px" />
@@ -75,35 +80,10 @@ export default class Dashboard extends Component {
             <YouTube video="c3ERi8ICZhQ" width="230px" height="140px" /> 
           </div>
           <div>
-            <YouTube video="c3ERi8ICZhQ" width="230px" height="140px" />
+            <YouTube video="BkVurJN8EEE" width="230px" height="140px" />
           </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
-          <div>
-            <YouTube video="LKnlv97Uzn8" width="230px" height="140px" />
-          </div>
+       
+ 
         </Container>
       </div>
     );

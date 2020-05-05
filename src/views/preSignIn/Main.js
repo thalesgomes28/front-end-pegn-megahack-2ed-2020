@@ -5,8 +5,9 @@ import Grid from "@material-ui/core/Grid";
 import Typography from "@material-ui/core/Typography";
 import Divider from "@material-ui/core/Divider";
 import { TextContainer } from "./styles";
-import Markdown from "./Markdown";
-const post = "dsfsdfdsfds";
+
+
+
 
 const useStyles = makeStyles((theme) => ({
   markdown: {
@@ -76,7 +77,9 @@ export default function Main(props) {
             essas é a acessibilidade, a conexão, a obtenção de conhecimento e
             informação.
           </p>
+
         </section>
+  
       </TextContainer>
     </Grid>
   );

@@ -37,14 +37,7 @@ import Icons from "views/Icons/Icons.js";
       permission:1
     },
 
-    {
-      path: "/about",
-      name: "Startup",     
-      icon: "near_me",
-      component: Icons,
-      layout: "/admin",
-      permission:0
-    },
+
      
     
     {
